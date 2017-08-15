@@ -7,7 +7,7 @@ hr {
     max-width: inherit;
 }
 
-
+.top-buffer { margin-top:30px; }
 
 .btn-hover {
     color: #5a2b81 !important;
@@ -35,8 +35,20 @@ hr {
     color: rgba(255,255,255,.75);
 }
 
-.email-link {
-    color: #0645AD;
+.social-link {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.facebook {color:#3b5998;}
+
+.mail {color:#5a2b81;}
+
+.twitter {color:#039be5;}
+
+.social-link a:focus, a:hover {
+
+    color: inherit;
+
 }
 
 .portfolio-opacity {
@@ -80,6 +92,18 @@ hr {
     }
 
 
+}
+
+@media only screen and (max-width: 1199px) {
+  .top-buffer-small {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top-buffer-xsmall {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
