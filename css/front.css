@@ -77,6 +77,13 @@ hr {
     background: rgba(106, 52, 178, 0.85) !important;
 }
 
+.sponsor-image {
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: center;
+    height: 125px;
+}
+
 @media only screen and (max-width: 767px) {
 
     .navbar-default .navbar-header .navbar-brand {
