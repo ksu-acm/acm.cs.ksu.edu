@@ -13,9 +13,34 @@ hr {
   color: #5a2b81 !important;
 }
 
+.officer-btn {
+  padding-bottom: 10px;
+}
+
+.clear {
+  background-color: transparent;
+}
+
+.white-caption {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
 .btn-purple{
   color: #5a2b81;
   background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.thumbnail {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.officer-name {
+    font-size: 23px;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand {
