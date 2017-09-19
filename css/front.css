@@ -13,6 +13,14 @@ hr {
   color: #5a2b81 !important;
 }
 
+.navbar-brand>img {
+    display: inline-block;
+    height: 40px;
+    margin-top: -10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
 .officer-btn {
   padding-bottom: 10px;
 }
