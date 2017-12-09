@@ -121,6 +121,13 @@ hr {
   width: 100%;
 }
 
+.profile-img-container {
+  min-width:200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
 @media only screen and (max-width: 767px) {
 
   .navbar-default .navbar-header .navbar-brand {
