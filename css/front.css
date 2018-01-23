@@ -121,6 +121,11 @@ hr {
   width: 100%;
 }
 
+.profile-img-container {
+  width: 200px;
+  height: 200px;
+}
+
 @media only screen and (max-width: 767px) {
 
   .navbar-default .navbar-header .navbar-brand {
