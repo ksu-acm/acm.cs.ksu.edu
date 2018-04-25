@@ -1,0 +1,68 @@
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #5a2b81;
+  border-color: #5a2b81;
+}
+
+.navbar-brand>img {
+  height: 40px;
+  margin-top: -4px;
+  margin-right: 10px;
+}
+
+.officers {
+  color: #ffffff;
+}
+
+.officers div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.officers img {
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.officers h3 {
+  font-size: 23px;
+}
+
+.sponsors div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 250px;
+  height: 125px;
+}
+
+#jnt {
+  background-size: 120px;
+}
+
+#esports {
+  background-size: 190px;
+}
+
+.event-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .sponsors div {
+    background-size: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sponsors div {
+    background-size: 170px;
+  }
+}
